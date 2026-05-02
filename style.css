@@ -18,11 +18,13 @@ h1 {
     text-decoration: underline;
 }
 
+/* introduction heading design */
 h2 {
     margin: 0px;
     text-decoration: underline;
 }
 
+/* benefits heading design */
 h3 {
     text-decoration: underline;
 }

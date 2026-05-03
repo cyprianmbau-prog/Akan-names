@@ -9,6 +9,7 @@
 <!--link to css-->
 <link rel="stylesheet" href="style.css">
 
+
 <body>
     <!--the main heading -->
     <h1>AKAN NAME GENERATOR</h1>
@@ -33,22 +34,23 @@
 
     <!--input form for birthdate and gender-->
     <div class="form">
-        <form>
-            <label for="birthdate">Birthdate:</label><br>
-            <input type="date" id="birthdate" name="birthdate" required><br>
-            <label for="gender">Your Gender</label><br>
-            <select id="gender" name="gender" required>
-                <option value="">*Choose*</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <button type="submit">SUBMIT</button>
+        <form onsubmit="getAkanName();return false;">
+            <label>enter birth date:</label><br>
+            <input type="date" id="dob" required><br>
+
+            <label>gender:</label><br>
+            <input type="radio" name="gender" value="male" required>
+            male
+            <input type="radio" name="gender" value="female" required>
+            female
+            <br><br>
+
+            <button onclick="getAkanName()">SUBMIT</button>
+            <h4 id="result"></h4>
+
         </form>
-
-
-        <!--display section-->
-        <p id="result">result</p>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

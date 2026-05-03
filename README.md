@@ -33,11 +33,11 @@ Results are displayed.
 
 **Technologies used**
 
-This website is made using  three main technologies:.HTML
+This website is made using  three main technologies:.HTML-builds the basic structure of the pages
                                                     
-                                                    .CSS
+                                                    .CSS-styles the pages
                                                     
-                                                    .Javascript
+                                                    .Javascript-manipulates data entered
 
 **Contact information**
 

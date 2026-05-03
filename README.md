@@ -13,7 +13,8 @@ cyprian mbau
 
 **Set-up-instructions**
 
-To set-up this websie you need to :1.clone the repository
+To set-up this websie you need to :
+                                   1.clone the repository
                                    
                                    2.open the folder
                                   
@@ -33,7 +34,8 @@ Results are displayed.
 
 **Technologies used**
 
-This website is made using  three main technologies:.HTML-builds the basic structure of the pages
+This website is made using  three main technologies: 
+                                                    .HTML-builds the basic structure of the pages
                                                     
                                                     .CSS-styles the pages
                                                     
